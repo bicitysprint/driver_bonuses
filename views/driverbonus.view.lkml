@@ -64,7 +64,7 @@ view: driverbonus {
 
   dimension: num_1 {
     label: "User ID"
-    type: number
+    type: string
     sql: ${TABLE}."NUM_1" ;;
   }
 
