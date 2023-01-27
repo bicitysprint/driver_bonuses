@@ -5,15 +5,17 @@ view: driverbonus {
   dimension: adj_amount {
     type: number
     sql: ${TABLE}."ADJ_AMOUNT" ;;
+    value_format_name: gbp
   }
 
   dimension: amt_1 {
     type: number
     sql: ${TABLE}."AMT_1" ;;
+    value_format_name: gbp
   }
 
   dimension: archive {
-    type: number
+    type: string
     sql: ${TABLE}."ARCHIVE" ;;
   }
 
