@@ -25,8 +25,8 @@ view: driverbonus {
   }
 
   dimension: class_desc {
-    label: "Service Centre"
     type: string
+    label: "Service Centre"
     sql: ${TABLE}."CLASS_DESC" ;;
   }
 
