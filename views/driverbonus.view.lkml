@@ -96,7 +96,7 @@ view: driverbonus {
 
   measure: sum {
     type: sum
-    sql: ${TABLE}."AMT_1" ;;
+    sql: ${TABLE}."ADJ_AMOUNT" ;;
   }
 
 }
