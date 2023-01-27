@@ -23,6 +23,7 @@ view: driverbonus {
   }
 
   dimension: class_desc {
+    label: "Service Centre"
     type: string
     sql: ${TABLE}."CLASS_DESC" ;;
   }
@@ -42,21 +43,25 @@ view: driverbonus {
   }
 
   dimension: description {
+    label: "Bonus Description"
     type: string
     sql: ${TABLE}."DESCRIPTION" ;;
   }
 
   dimension: ds_key_dm_drkey {
+    label: "Callsign"
     type: string
     sql: ${TABLE}."DS_KEY_DM_DRKEY" ;;
   }
 
   dimension: name {
+    label: "Driver Name"
     type: string
     sql: ${TABLE}."NAME" ;;
   }
 
   dimension: num_1 {
+    label: "User ID"
     type: number
     sql: ${TABLE}."NUM_1" ;;
   }
@@ -67,6 +72,7 @@ view: driverbonus {
   }
 
   dimension: rn {
+    hidden: yes
     type: number
     sql: ${TABLE}."RN" ;;
   }
